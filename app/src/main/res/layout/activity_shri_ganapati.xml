@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ganeshjii"
+    tools:context=".ShriGanapatiActivity">
+
+    <TextView
+        android:id="@+id/AtharvashirshaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/atharvashirsha"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:padding="15dp"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"/>
+    <TextView
+        android:id="@+id/GanapatiStotraTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ganapatistotra"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:padding="15dp"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

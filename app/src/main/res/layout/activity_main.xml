@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/agarbatii"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/GanapatiTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ganapatiji"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:padding="15dp"
+            android:fontFamily="cursive"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+        <TextView
+            android:id="@+id/VishnuTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vishnuji"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:padding="15dp"
+            android:fontFamily="cursive"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+        <TextView
+            android:id="@+id/MahadevTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mahadevji"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:padding="15dp"
+            android:fontFamily="cursive"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+        <TextView
+            android:id="@+id/YogeshwarideviTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yogeshwariddevi"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:padding="15dp"
+            android:fontFamily="cursive"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/KrushnTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kishanji"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:padding="15dp"
+            android:fontFamily="cursive"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/AartyaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aartya"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:padding="15dp"
+            android:fontFamily="cursive"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
